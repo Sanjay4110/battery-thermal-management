@@ -40,3 +40,38 @@ battery-thermal-management/
 │   └── battery_cooling_system.ino  # Arduino code for temperature control
 </pre>
 
+
+## 🔧 Arduino Code
+
+The core Arduino logic that controls the fan, TEC, heating, and buzzer based on LM35 temperature readings is available in:
+
+- [`arduino-code/battery_cooling_system.ino`](./arduino-code/battery_cooling_system.ino)
+
+It includes:
+- Wi-Fi + MQTT (Adafruit IO)
+- Smart control logic based on temperature
+- Alert system with buzzer and LED
+
+## 📄 Documentation
+
+- [Project Report (PDF)](./docs/battery_project_report.pdf)
+
+
+## 🚀 Future Improvements
+
+- 🔋 **Battery Health Monitoring**: Integrate voltage, current, and charge cycle tracking for a complete BMS.
+- 🌡️ **Multiple Sensor Support**: Add more LM35 sensors for better thermal mapping of battery packs.
+- 📟 **OLED/Display Integration**: Show real-time temperature and system status on a small display.
+- 📡 **IoT Dashboard**: Expand Adafruit IO integration for historical data logging and graphs.
+- 📶 **Wireless Alerts**: Add SMS/Email alerts via services like Twilio or IFTTT.
+- 🔒 **Safety Features**: Add cutoff relays or MOSFETs in case of overheating.
+- 🧠 **ML-based Optimization**: Predict thermal behavior based on usage patterns and ambient conditions.
+
+
+## 🙌 Credits
+
+Developed as part of the undergraduate project in Electrical & Electronics Engineering, BMS Institute of Technology and Management.
+
+
+
+
