@@ -31,4 +31,5 @@ This project is focused on designing a thermal management system for lithium-ion
 ---
 
 ## 📁 Project Structure
+battery-thermal-management/ ├── arduino-code/ # Arduino .ino or .c file │ └── cooling_control.ino ├── docs/ # Documentation │ └── battery_project_report.pdf └── README.md # Project overview
 
